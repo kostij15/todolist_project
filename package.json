@@ -1,0 +1,31 @@
+{
+  "name": "todolist_project",
+  "version": "1.0.0",
+  "description": "\"# todolist_project\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostij15/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostij15/todolist_project/issues"
+  },
+  "homepage": "https://github.com/kostij15/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "eslint": "^7.15.0"
+  }
+}
